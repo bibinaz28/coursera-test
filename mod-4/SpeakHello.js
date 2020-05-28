@@ -1,10 +1,19 @@
-(function(window){
+(function(){
+
+
+var helloSpeaker={};
+
 
 var speakWord = "Hello";
 
-var helloSpeaker={};
-helloSpeaker.speak=function(names){
-console.log(speakWord + " " + names;
+helloSpeaker.speak=function(name){
+console.log(speakWord + " " + name);
 }
 window.helloSpeaker=helloSpeaker;
-})(window);
+})();
+
+
+
+
+
+

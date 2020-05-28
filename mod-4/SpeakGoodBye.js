@@ -1,10 +1,15 @@
-(function(window){
+(function(){
+
+
+var byeSpeaker={};
 
 var speakWord = "Good Bye";
 
-var byeSpeaker={};
-byeSpeaker.speak=function(names){
-console.log(speakWord + " " + names);
+byeSpeaker.speak=function(name){
+console.log(speakWord + " " + name);
 }
 window.byeSpeaker=byeSpeaker;
-})(window);
+})();
+
+
+
